@@ -1,4 +1,4 @@
-Datum,PreisProAktie,UmsatzProAktie,Gewinn,EigenkapitalQuote
+Datum,PreisProAktie,UmsatzProAktie,GewinnProAktie,EigenkapitalQuote
 Q3 2021,133.11$,4.90$,1.31$,19.48%
 Q2 2021,121.21$,5.35$,1.41$,20.51%
 Q1 2020,136.69$,6.58$,1.70$,18.70%

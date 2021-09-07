@@ -58,14 +58,14 @@ let api = {
                 Datum: "",
                 PreisProAktie: "",
                 UmsatzProAktie: "",
-                Gewinn: "",
+                GewinnProAktie: "",
                 EigenkapitalQuote: ""
             }
 
             outputData.PreisProAktie = data.quarterlySharePrice[i].stockPrice.toFixed(2) + "$";
             outputData.Datum = data.quarterlyEarnings[i].period + " " + data.quarterlySharePrice[i].date.substring(0, 4);
             outputData.UmsatzProAktie = data.quarterlyEarnings[i].revenuePerShare.toFixed(2) + "$";
-            outputData.Gewinn = data.quarterlyEarnings[i].netIncomePerShare.toFixed(2) + "$";
+            outputData.GewinnProAktie = data.quarterlyEarnings[i].netIncomePerShare.toFixed(2) + "$";
             outputData.EigenkapitalQuote = ((1 - data.quarterlyRatios[i].debtRatio) * 100).toString().substring(0, 5) + "%";
 
             outputArray.push(outputData);
