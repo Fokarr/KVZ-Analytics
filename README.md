@@ -6,7 +6,7 @@ KVZ currently supports:
 
 | Index | Financial Metrics |
 | ----------- | ----------- |
-| 1 | Date (Year and Quarter |
+| 1 | Date (Year and Quarter) |
 | 2 | Price per share |
 | 3 | Revenue per share |
 | 4 | Gross profit per share |
@@ -19,6 +19,10 @@ git clone REPOSITORY
 npm install
 node script.js --company=AALP --fileName=apple-example  
 ```
+
+You need an API Key from: https://financialmodelingprep.com/developer/docs
+
+Create a .env file with API_KEY = "VALUE"
 
 **--company** required 
 **--fileName** optional
