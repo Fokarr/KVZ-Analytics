@@ -1,0 +1,22 @@
+{
+  "name": "kzv-analytics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "chalk": "^4.1.2",
+    "csv": "^5.5.3",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.12",
+    "objects-to-csv": "^1.3.6",
+    "yargs": "^17.1.1"
+  }
+}
