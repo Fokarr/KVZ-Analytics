@@ -40,6 +40,7 @@ let api = {
         console.log("3/6 - Getting key metrics")
         await axios.get(`${url}key-metrics/${company}?period=quarter&limit=100&apikey=${key}`).then(res => {
             data.quarterlyEarnings = res.data;
+            console.log(data.quarterlyEarnings)
         })
     },
 
@@ -53,7 +54,7 @@ let api = {
     transformData: () => {
         let outputArray = [];
 
-        for(let i = 0; i < data.quarterlySharePrice.length; i++) {
+        for(let i = 0; i < data.quarterlyEarnings.length; i++) {
             let outputData = {
                 Datum: "",
                 PreisProAktie: "",
